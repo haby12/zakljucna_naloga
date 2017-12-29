@@ -1,0 +1,78 @@
+.pozdrav{
+    text-align: center;
+    padding-top: 65px;
+}
+html,body,.container {
+    height:100%;
+}
+.container {
+    display:table;
+    box-sizing: border-box;
+    height:100%;
+}
+
+.container-fluid {
+    padding:0;
+
+    height:auto;
+
+}
+
+.row {
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+
+#meni, .ab{
+    background-color: #243752;
+    height: auto;
+    min-height:100%;
+    color: white;
+}
+ul{
+    list-style: none; 
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a{
+    color:white;
+}
+.meniWhite{
+    color: white;
+    text-align: center;
+}
+ul.stranskiMeni{
+    list-style-type: none;
+}
+ul.stranskiMeni a,ul.stranskiMeni a:hover{
+    display:block; 
+    width: auto;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-right: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul.stranskiMeni li a{
+    background-color: #405d87;
+}
+
+ul.stranskiMeni li a:hover{
+    background-color: #4b6ea0;
+}
+
+ul.stranskiMeni li a:active{
+    background-color: #4b6ea0;
+}
+.ena{
+    padding-left: 35px;
+}
